@@ -10,4 +10,7 @@
 
 <img src="https://user-images.githubusercontent.com/7610065/169695156-c6f59b32-72a7-4cae-b979-8e29bed0cd10.png" width="500" height="250">
 
+## Row Oriented and Column Oriented Database
+
+<img src="https://user-images.githubusercontent.com/7610065/169696074-f2a2b51c-6b74-4904-9668-f6c52b6220fe.png" width="500" height="250">
 
