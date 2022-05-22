@@ -16,4 +16,13 @@
 
 ### Dirty Read
 
+Read data while it is still updating, in case transaction might rollback.
+
 <img src="https://user-images.githubusercontent.com/7610065/169685097-c91c2c21-5e49-4326-8908-eaabc2492162.png" width="500" height="250">
+
+### Non-repeatable Read
+
+two read for same row might result in different data, it might happen when another transaction update the row and commits it.
+
+<img src="(https://user-images.githubusercontent.com/7610065/169685168-c0778e30-5897-4997-bcb7-2ee93ab42606.png" width="500" height="250">
+
