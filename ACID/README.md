@@ -49,6 +49,12 @@ Snapshot isolation level will not have phantom reads
 
 <img src="https://user-images.githubusercontent.com/7610065/169688201-6bdf8a0d-d7d7-4490-85c0-f647ebccaa58.png" width="500" height="250">
 
+## Consustency
 
+<img src="https://user-images.githubusercontent.com/7610065/169688639-346c28ae-0dad-43a0-a9e2-8fd247d92d21.png" width="500" height="250">
+
+## Durability
+
+<img src="https://user-images.githubusercontent.com/7610065/169689412-1f35b4a2-ffb6-4df7-8f45-09114da4aebe.png" width="500" height="250">
 
 
