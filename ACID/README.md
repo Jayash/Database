@@ -12,11 +12,14 @@
 
 ## Isolation
 
+- Read Phenomena -> Dirty Read, Non-repeatable Read, Phantom Read, Loat update
+- Isolation Levels is invented to fixed read phenomena
+
 <img src="https://user-images.githubusercontent.com/7610065/169667467-83e78beb-4894-4647-b720-6c79e232f244.png" width="500" height="250">
 
 ### Dirty Read
 
-Read data while it is still updating, in case transaction might rollback.
+A dirty read occurs when a transaction reads data that has not yet been committed.
 
 <img src="https://user-images.githubusercontent.com/7610065/169685097-c91c2c21-5e49-4326-8908-eaabc2492162.png" width="500" height="250">
 
@@ -25,3 +28,15 @@ Read data while it is still updating, in case transaction might rollback.
 two read for same row might result in different data, it might happen when another transaction update the row and commits it.
 
 <img src="https://user-images.githubusercontent.com/7610065/169685298-486ebc55-6cbd-4b02-8104-165d173d17e9.png" width="500" height="250">
+
+## Phantom Read
+
+A Phantom read occurs when one user is repeating a read operation on the same records, but has new records in the results.
+
+<img src="https://user-images.githubusercontent.com/7610065/169685552-83fa4e09-0d1a-4e8c-b0d6-3af2a6e11472.png" width="500" height="250">
+
+## Lost Update
+
+<img src="https://user-images.githubusercontent.com/7610065/169685651-06fe6223-961f-4c52-a263-04cfd20749f6.png" width="500" height="250">
+
+
