@@ -24,5 +24,4 @@ Read data while it is still updating, in case transaction might rollback.
 
 two read for same row might result in different data, it might happen when another transaction update the row and commits it.
 
-<img src="(https://user-images.githubusercontent.com/7610065/169685168-c0778e30-5897-4997-bcb7-2ee93ab42606.png" width="500" height="250">
-
+<img src="https://user-images.githubusercontent.com/7610065/169685298-486ebc55-6cbd-4b02-8104-165d173d17e9.png" width="500" height="250">
