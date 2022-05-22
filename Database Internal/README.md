@@ -20,3 +20,8 @@
 
 <img src="https://user-images.githubusercontent.com/7610065/169707869-c965e39f-c14f-4da9-be82-ff4d86119e19.png" width="500" height="250">
 
+## Primary Key and Secondary Key
+
+primary key -> table will be clustered, row will be ordered in the table itself.
+
+secondary key -> table is not structured or ordered but the key is stored in different data structure (B tree).
