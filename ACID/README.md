@@ -39,4 +39,16 @@ A Phantom read occurs when one user is repeating a read operation on the same re
 
 <img src="https://user-images.githubusercontent.com/7610065/169685651-06fe6223-961f-4c52-a263-04cfd20749f6.png" width="500" height="250">
 
+## Isolation Levels
+
+Snapshot isolation level will not have phantom reads
+
+<img src="https://user-images.githubusercontent.com/7610065/169687922-5af75211-31d3-4ee7-8161-5c49903697a8.png" width="500" height="250">
+
+<img src="https://user-images.githubusercontent.com/7610065/169687990-49143197-dcac-413a-a5cd-6467490a463a.png" width="500" height="250">
+
+<img src="https://user-images.githubusercontent.com/7610065/169688201-6bdf8a0d-d7d7-4490-85c0-f647ebccaa58.png" width="500" height="250">
+
+
+
 
