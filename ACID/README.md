@@ -8,3 +8,12 @@
 
 ## Atomicity
 
+<img src="https://user-images.githubusercontent.com/7610065/169667467-83e78beb-4894-4647-b720-6c79e232f244.png" width="500" height="250">
+
+## Isolation
+
+<img src="https://user-images.githubusercontent.com/7610065/169667467-83e78beb-4894-4647-b720-6c79e232f244.png" width="500" height="250">
+
+### Dirty Read
+
+<img src="https://user-images.githubusercontent.com/7610065/169685097-c91c2c21-5e49-4326-8908-eaabc2492162.png" width="500" height="250">
