@@ -12,3 +12,9 @@ Indexes are stored persistent storage
 In composite index if only right side column is checked then query optimizer will do a sequential scan instead of index scan
 <img src="https://user-images.githubusercontent.com/7610065/170886732-f2c8aa8f-5c15-4f36-8265-3d0c9ecfc740.png" width="500" height="250">
 
+## Bloom Filters
+
+A Bloom filter is a space-efficient probabilistic data structure, conceived by Burton Howard Bloom in 1970, that is used to test whether an element is a member of a set.
+
+https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/
+
