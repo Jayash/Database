@@ -1,9 +1,9 @@
 # Index
 
-Sequential Scan
-Parallel Sequential Scan: when multiple worker does sequential scan
-Index Scan:
-Index only scan: when only select the indexed column
+- Sequential Scan
+- Parallel Sequential Scan: when multiple worker does sequential scan
+- Index Scan:
+- Index only scan: when only select the indexed column
 
 Indexes are stored persistent storage 
 
