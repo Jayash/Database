@@ -4,4 +4,5 @@
 ## Database Internal
 ## Indexes
 
-Commands	CREATE, DROP, RENAME and ALTER.	INSERT, UPDATE and DELETE.
+DDL Commands:	CREATE, DROP, RENAME
+DML Commands: ALTER.	INSERT, UPDATE and DELETE.
