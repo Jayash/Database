@@ -8,6 +8,12 @@
 
 <img src="https://user-images.githubusercontent.com/7610065/171047119-88ed8ba3-1744-4028-8f2c-8569013eeb7e.png" width="500" height="250">
 
+## Cluster Index
+A clustered index is an index which defines the physical order in which table records are stored in a database. Since there can be only one way in which records are physically stored in a database table, there can be only one clustered index per table. By default a clustered index is created on a primary key column.
+
+The secondary index is an indirect way to access the data. Unlike the primary (clustered) index, when you traverse the secondary index in InnoDB and you reach the leaf node you find a primary key value for the corresponding row the query is looking for. Using this value you traverse the primary index to fetch the row. This means 2 index look ups in InnoDB.
+For MyISAM because the leaf of the secondary node is a pointer to the actual row you only require 1 index lookup.
+
 
 
 
