@@ -20,4 +20,4 @@ For MyISAM because the leaf of the secondary node is a pointer to the actual row
 
 <img src="https://user-images.githubusercontent.com/7610065/171265674-573d8b31-a0fe-4fdf-a2d2-ae5c409ba247.png" width="500" height="250">
 
-
+<img src="https://user-images.githubusercontent.com/7610065/171266008-fc7ba672-67e3-40fa-b617-73d942d12382.png" width="500" height="250">
