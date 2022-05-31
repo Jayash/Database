@@ -16,5 +16,9 @@ For MyISAM because the leaf of the secondary node is a pointer to the actual row
 
 <img src="https://user-images.githubusercontent.com/7610065/171256114-a84155ab-7973-404e-a77c-83e526f3cfd1.png" width="500" height="250">
 
+<img src="https://user-images.githubusercontent.com/7610065/171265205-f7277e91-442a-43b5-90e6-9eae9586d87e.png" width="500" height="250">
+
+
+
 
 
