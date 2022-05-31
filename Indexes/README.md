@@ -9,6 +9,13 @@ A Bitmap Heap Scan is the most common parent node of a Bitmap Index Scan, but a 
 
 Indexes are stored persistent storage 
 
+## Cluster Index
+A clustered index is an index which defines the physical order in which table records are stored in a database. Since there can be only one way in which records are physically stored in a database table, there can be only one clustered index per table. By default a clustered index is created on a primary key column.
+
+The secondary index is an indirect way to access the data. Unlike the primary (clustered) index, when you traverse the secondary index in InnoDB and you reach the leaf node you find a primary key value for the corresponding row the query is looking for. Using this value you traverse the primary index to fetch the row. This means 2 index look ups in InnoDB.
+For MyISAM because the leaf of the secondary node is a pointer to the actual row you only require 1 index lookup.
+
+
 In composite index if only right side column is checked then query optimizer will do a sequential scan instead of index scan
 <img src="https://user-images.githubusercontent.com/7610065/170886732-f2c8aa8f-5c15-4f36-8265-3d0c9ecfc740.png" width="500" height="250">
 
