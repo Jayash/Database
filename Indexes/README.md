@@ -7,7 +7,8 @@
 
 A Bitmap Heap Scan is the most common parent node of a Bitmap Index Scan, but a plan may also combine several different Bitmap Index Scans with BitmapAnd or BitmapOr nodes before actually fetching the underlying data. This allows Postgres to use two different indexes at once to execute a query.
 
-Indexes are stored persistent storage 
+## Index Storage
+Indexes are stored in RAM and if it becomes to large it gets stored in persistent storage
 
 ## Cluster Index
 A clustered index is an index which defines the physical order in which table records are stored in a database. Since there can be only one way in which records are physically stored in a database table, there can be only one clustered index per table. By default a clustered index is created on a primary key column.
