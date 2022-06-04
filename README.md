@@ -4,7 +4,7 @@
 ## Database Internal
 ## Indexes
 
-- DDL Commands:	CREATE, DROP, RENAME
+- DDL Commands:	CREATE Table, DROP, RENAME
 - DML Commands: ALTER.	INSERT, UPDATE and DELETE.
 
 ## Problems in Long Running Transactions
